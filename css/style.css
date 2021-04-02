@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+main {
+  width: 100%;
+  background-color: #28223f;
+  display: flex;
+  align-items: center; }
+  main .profile {
+    background-color: #231e39;
+    width: 20rem;
+    height: auto;
+    margin: 4rem auto;
+    color: #a0a5be;
+    border-radius: 1rem;
+    overflow: hidden;
+    -webkit-box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+    main .profile .profile_top {
+      padding: 1rem 0.8rem; }
+      main .profile .profile_top .badge {
+        background-color: #febb0b;
+        color: #28223f;
+        padding: 0.2rem 0.6rem;
+        font-size: 0.9rem;
+        border-radius: 2px;
+        display: inline-block;
+        margin: 1rem 0 0 1rem; }
+      main .profile .profile_top .profile_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; }
+        main .profile .profile_top .profile_info .profile_img {
+          margin-bottom: 0.6rem; }
+          main .profile .profile_top .profile_info .profile_img img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10rem;
+            padding: 0.2rem;
+            border: 1px solid #03bfcb; }
+        main .profile .profile_top .profile_info .name {
+          margin-bottom: 0.6rem;
+          font-size: 1.4rem;
+          text-transform: uppercase;
+          font-weight: 600; }
+        main .profile .profile_top .profile_info .city {
+          margin-bottom: 0.6rem;
+          font-size: 1rem;
+          text-transform: capitalize;
+          font-weight: 600; }
+        main .profile .profile_top .profile_info .about {
+          width: 80%;
+          line-height: 1.4;
+          font-size: 1rem;
+          margin-bottom: 0.6rem; }
+        main .profile .profile_top .profile_info .btn_box {
+          display: flex;
+          align-items: center; }
+          main .profile .profile_top .profile_info .btn_box .btn {
+            color: #03bfcb;
+            background-color: transparent;
+            margin: 0.2rem;
+            border: 1px solid #03bfcb;
+            padding: 0.7rem 1.7rem;
+            font-size: 0.9rem;
+            letter-spacing: 1.2;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: all 0.6s; }
+            main .profile .profile_top .profile_info .btn_box .btn:hover {
+              background-color: #03bfcb;
+              color: #28223f; }
+          main .profile .profile_top .profile_info .btn_box .active_btn {
+            background-color: #03bfcb;
+            color: #28223f; }
+    main .profile .profile_bottom {
+      padding: 1rem 0.8rem;
+      background-color: #1f1a36;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      main .profile .profile_bottom h1 {
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        margin-bottom: 0.2rem; }
+      main .profile .profile_bottom .skill_box {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap; }
+        main .profile .profile_bottom .skill_box .skill {
+          padding: 0.2rem 0.4rem;
+          border: 0.5px solid rgba(255, 255, 255, 0.075);
+          margin: 0.4rem 0.2rem;
+          font-size: 0.9rem; }
